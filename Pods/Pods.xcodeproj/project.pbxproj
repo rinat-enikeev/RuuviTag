@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02938697927D79BDB6D1D2D70FB6F899 /* CallbackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8694403B516E063A91AA8F02C2D07A18 /* CallbackQueue.swift */; };
+		053F3919E30DDB6C3945396F115C3B42 /* BTDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C36ACFEF0586141815A2B9233A68FF /* BTDevice.swift */; };
+		09A043ACA32ABC82C92E989E0BDA17EE /* RuuviDecoderiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8CA082857A18977FDA090A142D0725 /* RuuviDecoderiOS.swift */; };
+		26E570F95D0A77F2EE7BFDB58CEECDC1 /* RuuviData5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2F92421C5F0139FD5CAF3F6B1886D5 /* RuuviData5.swift */; };
+		285E9A555B97E4AD999C5F0D7B24F64A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		33B18E659E93C22B029EDA5C66ABA094 /* Pods-RuuviTag-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A9162839ADE122C64D9C070980CBB0 /* Pods-RuuviTag-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42867EF126B0ADBE073493CEAB9AAA85 /* RuuviData2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD38EAEE22599C281A48509C14AB5128 /* RuuviData2.swift */; };
+		939CBFDDF69FF789E77ABCD20F4D17CF /* BTScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B491404DEEEEEEB8B2CC7C30EE2993 /* BTScanner.swift */; };
+		A544F8CB954B3DAC67432CEF71303CEC /* Ruuvi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ECF1E426A06518112380451FA61B05 /* Ruuvi.swift */; };
+		AC6F8DFC8D5A2898C00EB4AD57D676A5 /* BTKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF753609A9CA8BD1183BC4A3B088799 /* BTKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7AB531DA281F564CFF4678CC67A1B61 /* RuuviDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96849FCBA85E283B737456FE37CB943A /* RuuviDevice.swift */; };
+		BA8329F3E1033454F4F67B13F32B81E2 /* BTScannerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DB2974D074EC14C2E39B7DE94E5D91 /* BTScannerOptions.swift */; };
+		C234C7785D831F929F3AEDF9A0BEFCF4 /* BTKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C523908D9DC99CA16245D84EC223FFC3 /* BTKit-dummy.m */; };
+		C44A9629D7A9736B05E6DAB64A7C8E96 /* Data+Ruuvi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DE1C848B79A342316837212FA75B33 /* Data+Ruuvi.swift */; };
+		C9CE3CBB422D6EEE7256C0E8CC5E01A4 /* RuuviData3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0F3897F83BD35B84151543001FC90A /* RuuviData3.swift */; };
+		CF58F478765BAD274B5EEDDDD2F46274 /* ObservationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = C402F39CD8EDDD988022EDC94322E1DE /* ObservationToken.swift */; };
+		D84D9F6C36FA21B7DB989098EAF79941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DDFA5FD5B0B9F268EE2414C6D669D9F5 /* BTContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408FC2BF94341C09C1CA020EB4FDB6D /* BTContract.swift */; };
+		E8E301DF66FBBAD6C3AB0909C5C4280A /* RuuviData4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4440DAEF02B4302971AB54930D863F5 /* RuuviData4.swift */; };
+		EC10F738B0B530671643CB31075EBF43 /* Pods-RuuviTag-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 869C273D413547EC16547338909A8EE4 /* Pods-RuuviTag-dummy.m */; };
+		F7E9A9A6082888CBCA94992E5805210F /* BTScanneriOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58434F083F751A913DE7E5B03D7B1AE3 /* BTScanneriOS.swift */; };
+		FB0BA9A8F0120378CBF21E37227FA44F /* BTKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6697370BCD9A3EFA52233138BEE2FEE0 /* BTKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		322CE53826D475A263C2ABA1F4CA7A16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1FA60EFD844162BD8EED2BC06887824;
+			remoteInfo = BTKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0408FC2BF94341C09C1CA020EB4FDB6D /* BTContract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTContract.swift; path = BTKit/Source/Devices/BTContract.swift; sourceTree = "<group>"; };
+		1248ACE848A96A3D8E02AF368DD58F16 /* BTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTKit.framework; path = BTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF753609A9CA8BD1183BC4A3B088799 /* BTKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTKit-umbrella.h"; sourceTree = "<group>"; };
+		23B491404DEEEEEEB8B2CC7C30EE2993 /* BTScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTScanner.swift; path = BTKit/Source/Devices/BTScanner.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3979DD7DEE00881E57167BFBE0AAAD90 /* BTKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTKit-Info.plist"; sourceTree = "<group>"; };
+		4C15C8A21F1CF75BF32AD09347C485A3 /* BTKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTKit.xcconfig; sourceTree = "<group>"; };
+		58434F083F751A913DE7E5B03D7B1AE3 /* BTScanneriOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTScanneriOS.swift; path = BTKit/Source/Scanner/iOS/BTScanneriOS.swift; sourceTree = "<group>"; };
+		6697370BCD9A3EFA52233138BEE2FEE0 /* BTKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTKit.swift; path = BTKit/Source/BTKit.swift; sourceTree = "<group>"; };
+		73C42B9AED14AA6AF393E2F52C1099EF /* Pods-RuuviTag.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RuuviTag.modulemap"; sourceTree = "<group>"; };
+		7B0F3897F83BD35B84151543001FC90A /* RuuviData3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuuviData3.swift; path = BTKit/Source/Devices/Ruuvi/Tag/Firmware/Versions/RuuviData3.swift; sourceTree = "<group>"; };
+		7B2F92421C5F0139FD5CAF3F6B1886D5 /* RuuviData5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuuviData5.swift; path = BTKit/Source/Devices/Ruuvi/Tag/Firmware/Versions/RuuviData5.swift; sourceTree = "<group>"; };
+		8694403B516E063A91AA8F02C2D07A18 /* CallbackQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackQueue.swift; path = BTKit/Source/Devices/CallbackQueue.swift; sourceTree = "<group>"; };
+		869C273D413547EC16547338909A8EE4 /* Pods-RuuviTag-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RuuviTag-dummy.m"; sourceTree = "<group>"; };
+		86ECF1E426A06518112380451FA61B05 /* Ruuvi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ruuvi.swift; path = BTKit/Source/Vendor/Ruuvi/Ruuvi.swift; sourceTree = "<group>"; };
+		8836A8639AAEF941711FEFCB5F1CED67 /* Pods-RuuviTag-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RuuviTag-frameworks.sh"; sourceTree = "<group>"; };
+		96849FCBA85E283B737456FE37CB943A /* RuuviDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuuviDevice.swift; path = BTKit/Source/Devices/Ruuvi/RuuviDevice.swift; sourceTree = "<group>"; };
+		9AA74E9EDFE2EEE2518EA82DA9E931C6 /* Pods-RuuviTag-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RuuviTag-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A53C6AB6E05F57B87B9CA0D1505451F1 /* Pods-RuuviTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RuuviTag.release.xcconfig"; sourceTree = "<group>"; };
+		A6C36ACFEF0586141815A2B9233A68FF /* BTDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTDevice.swift; path = BTKit/Source/Devices/BTDevice.swift; sourceTree = "<group>"; };
+		AE23A112532A3FD08ECE3983741A25FF /* BTKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTKit.modulemap; sourceTree = "<group>"; };
+		AF9C9B1B80CB752ED43256B6BA74AFE7 /* Pods-RuuviTag-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RuuviTag-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4DE1C848B79A342316837212FA75B33 /* Data+Ruuvi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Ruuvi.swift"; path = "BTKit/Source/Vendor/Ruuvi/Decoder/Data+Ruuvi.swift"; sourceTree = "<group>"; };
+		B5A9162839ADE122C64D9C070980CBB0 /* Pods-RuuviTag-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RuuviTag-umbrella.h"; sourceTree = "<group>"; };
+		BD38EAEE22599C281A48509C14AB5128 /* RuuviData2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuuviData2.swift; path = BTKit/Source/Devices/Ruuvi/Tag/Firmware/Versions/RuuviData2.swift; sourceTree = "<group>"; };
+		BDF05DA850A87B81D05D54A557BA194F /* Pods-RuuviTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RuuviTag.debug.xcconfig"; sourceTree = "<group>"; };
+		C402F39CD8EDDD988022EDC94322E1DE /* ObservationToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservationToken.swift; path = BTKit/Source/Devices/ObservationToken.swift; sourceTree = "<group>"; };
+		C523908D9DC99CA16245D84EC223FFC3 /* BTKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTKit-dummy.m"; sourceTree = "<group>"; };
+		D4440DAEF02B4302971AB54930D863F5 /* RuuviData4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuuviData4.swift; path = BTKit/Source/Devices/Ruuvi/Tag/Firmware/Versions/RuuviData4.swift; sourceTree = "<group>"; };
+		D6DB2974D074EC14C2E39B7DE94E5D91 /* BTScannerOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTScannerOptions.swift; path = BTKit/Source/Devices/BTScannerOptions.swift; sourceTree = "<group>"; };
+		D7285D37E51A1268BBE770CF815D19F6 /* Pods-RuuviTag-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RuuviTag-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB8CA082857A18977FDA090A142D0725 /* RuuviDecoderiOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuuviDecoderiOS.swift; path = BTKit/Source/Vendor/Ruuvi/Decoder/iOS/RuuviDecoderiOS.swift; sourceTree = "<group>"; };
+		ED9D2B19CB7706BD9329670F43E23D26 /* BTKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTKit-prefix.pch"; sourceTree = "<group>"; };
+		FFA136E04C6BCBD5FA4050377D2D9A93 /* Pods_RuuviTag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RuuviTag.framework; path = "Pods-RuuviTag.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89B0C5680DBA3E35F626C52239524286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84D9F6C36FA21B7DB989098EAF79941 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD563E2382CD92011E60026713AB917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285E9A555B97E4AD999C5F0D7B24F64A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06226C8D59F23FADC15366FFDAF1C9B7 /* Pods-RuuviTag */ = {
+			isa = PBXGroup;
+			children = (
+				73C42B9AED14AA6AF393E2F52C1099EF /* Pods-RuuviTag.modulemap */,
+				AF9C9B1B80CB752ED43256B6BA74AFE7 /* Pods-RuuviTag-acknowledgements.markdown */,
+				D7285D37E51A1268BBE770CF815D19F6 /* Pods-RuuviTag-acknowledgements.plist */,
+				869C273D413547EC16547338909A8EE4 /* Pods-RuuviTag-dummy.m */,
+				8836A8639AAEF941711FEFCB5F1CED67 /* Pods-RuuviTag-frameworks.sh */,
+				9AA74E9EDFE2EEE2518EA82DA9E931C6 /* Pods-RuuviTag-Info.plist */,
+				B5A9162839ADE122C64D9C070980CBB0 /* Pods-RuuviTag-umbrella.h */,
+				BDF05DA850A87B81D05D54A557BA194F /* Pods-RuuviTag.debug.xcconfig */,
+				A53C6AB6E05F57B87B9CA0D1505451F1 /* Pods-RuuviTag.release.xcconfig */,
+			);
+			name = "Pods-RuuviTag";
+			path = "Target Support Files/Pods-RuuviTag";
+			sourceTree = "<group>";
+		};
+		59406D04172F90731A1DA93B16825B01 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Devices;
+			sourceTree = "<group>";
+		};
+		69D36879B897E2B506640EB5F065ED84 /* BTKit */ = {
+			isa = PBXGroup;
+			children = (
+				0408FC2BF94341C09C1CA020EB4FDB6D /* BTContract.swift */,
+				A6C36ACFEF0586141815A2B9233A68FF /* BTDevice.swift */,
+				6697370BCD9A3EFA52233138BEE2FEE0 /* BTKit.swift */,
+				23B491404DEEEEEEB8B2CC7C30EE2993 /* BTScanner.swift */,
+				58434F083F751A913DE7E5B03D7B1AE3 /* BTScanneriOS.swift */,
+				D6DB2974D074EC14C2E39B7DE94E5D91 /* BTScannerOptions.swift */,
+				8694403B516E063A91AA8F02C2D07A18 /* CallbackQueue.swift */,
+				B4DE1C848B79A342316837212FA75B33 /* Data+Ruuvi.swift */,
+				C402F39CD8EDDD988022EDC94322E1DE /* ObservationToken.swift */,
+				86ECF1E426A06518112380451FA61B05 /* Ruuvi.swift */,
+				BD38EAEE22599C281A48509C14AB5128 /* RuuviData2.swift */,
+				7B0F3897F83BD35B84151543001FC90A /* RuuviData3.swift */,
+				D4440DAEF02B4302971AB54930D863F5 /* RuuviData4.swift */,
+				7B2F92421C5F0139FD5CAF3F6B1886D5 /* RuuviData5.swift */,
+				DB8CA082857A18977FDA090A142D0725 /* RuuviDecoderiOS.swift */,
+				96849FCBA85E283B737456FE37CB943A /* RuuviDevice.swift */,
+				59406D04172F90731A1DA93B16825B01 /* Devices */,
+				DE5B5E2EEF46E2D851DA1D9FD16EDCBC /* Ruuvi */,
+				F1770189D67816DA36369FA5DC5722B3 /* Scanner */,
+				C5CCD8FA6BCF4CF25B8A68C654F16BC9 /* Support Files */,
+			);
+			name = BTKit;
+			path = BTKit;
+			sourceTree = "<group>";
+		};
+		9F6D6BCE26AB4FDA41E38033EDA390AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1248ACE848A96A3D8E02AF368DD58F16 /* BTKit.framework */,
+				FFA136E04C6BCBD5FA4050377D2D9A93 /* Pods_RuuviTag.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEACBC008D7BF4CD15DCCE436BBCB79C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69D36879B897E2B506640EB5F065ED84 /* BTKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5CCD8FA6BCF4CF25B8A68C654F16BC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE23A112532A3FD08ECE3983741A25FF /* BTKit.modulemap */,
+				4C15C8A21F1CF75BF32AD09347C485A3 /* BTKit.xcconfig */,
+				C523908D9DC99CA16245D84EC223FFC3 /* BTKit-dummy.m */,
+				3979DD7DEE00881E57167BFBE0AAAD90 /* BTKit-Info.plist */,
+				ED9D2B19CB7706BD9329670F43E23D26 /* BTKit-prefix.pch */,
+				1BF753609A9CA8BD1183BC4A3B088799 /* BTKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BTKit";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BEACBC008D7BF4CD15DCCE436BBCB79C /* Pods */,
+				9F6D6BCE26AB4FDA41E38033EDA390AF /* Products */,
+				FCB5E4A8A29D1A30AFD5BD59B1E11006 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE5B5E2EEF46E2D851DA1D9FD16EDCBC /* Ruuvi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Ruuvi;
+			sourceTree = "<group>";
+		};
+		F1770189D67816DA36369FA5DC5722B3 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Scanner;
+			sourceTree = "<group>";
+		};
+		FCB5E4A8A29D1A30AFD5BD59B1E11006 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06226C8D59F23FADC15366FFDAF1C9B7 /* Pods-RuuviTag */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2203725724100B9A9AA4B3E4B7F86EEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B18E659E93C22B029EDA5C66ABA094 /* Pods-RuuviTag-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73845615A67A50A8DC16B16BBE51DD88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6F8DFC8D5A2898C00EB4AD57D676A5 /* BTKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D5BC5948C477BFFE626C6FB0B01FE18 /* Pods-RuuviTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E2B33B02D2869C94AF8F98598F4CC4 /* Build configuration list for PBXNativeTarget "Pods-RuuviTag" */;
+			buildPhases = (
+				2203725724100B9A9AA4B3E4B7F86EEC /* Headers */,
+				701BB6E6947A1B59E53A96253741C01F /* Sources */,
+				89B0C5680DBA3E35F626C52239524286 /* Frameworks */,
+				20A3E8EE9C933F0F710F37B7352A3F12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BD5CF3FD953EECF26BC65FB379148E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-RuuviTag";
+			productName = "Pods-RuuviTag";
+			productReference = FFA136E04C6BCBD5FA4050377D2D9A93 /* Pods_RuuviTag.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1FA60EFD844162BD8EED2BC06887824 /* BTKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59395448A23E76E7122555AF3CAA2D6C /* Build configuration list for PBXNativeTarget "BTKit" */;
+			buildPhases = (
+				73845615A67A50A8DC16B16BBE51DD88 /* Headers */,
+				C06EC406806A9BD00B04C3DF7C8657BB /* Sources */,
+				BFD563E2382CD92011E60026713AB917 /* Frameworks */,
+				93FEC5680BC7E53FEDABA2108C2876ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTKit;
+			productName = BTKit;
+			productReference = 1248ACE848A96A3D8E02AF368DD58F16 /* BTKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9F6D6BCE26AB4FDA41E38033EDA390AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1FA60EFD844162BD8EED2BC06887824 /* BTKit */,
+				2D5BC5948C477BFFE626C6FB0B01FE18 /* Pods-RuuviTag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20A3E8EE9C933F0F710F37B7352A3F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93FEC5680BC7E53FEDABA2108C2876ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		701BB6E6947A1B59E53A96253741C01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC10F738B0B530671643CB31075EBF43 /* Pods-RuuviTag-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06EC406806A9BD00B04C3DF7C8657BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFA5FD5B0B9F268EE2414C6D669D9F5 /* BTContract.swift in Sources */,
+				053F3919E30DDB6C3945396F115C3B42 /* BTDevice.swift in Sources */,
+				C234C7785D831F929F3AEDF9A0BEFCF4 /* BTKit-dummy.m in Sources */,
+				FB0BA9A8F0120378CBF21E37227FA44F /* BTKit.swift in Sources */,
+				939CBFDDF69FF789E77ABCD20F4D17CF /* BTScanner.swift in Sources */,
+				F7E9A9A6082888CBCA94992E5805210F /* BTScanneriOS.swift in Sources */,
+				BA8329F3E1033454F4F67B13F32B81E2 /* BTScannerOptions.swift in Sources */,
+				02938697927D79BDB6D1D2D70FB6F899 /* CallbackQueue.swift in Sources */,
+				C44A9629D7A9736B05E6DAB64A7C8E96 /* Data+Ruuvi.swift in Sources */,
+				CF58F478765BAD274B5EEDDDD2F46274 /* ObservationToken.swift in Sources */,
+				A544F8CB954B3DAC67432CEF71303CEC /* Ruuvi.swift in Sources */,
+				42867EF126B0ADBE073493CEAB9AAA85 /* RuuviData2.swift in Sources */,
+				C9CE3CBB422D6EEE7256C0E8CC5E01A4 /* RuuviData3.swift in Sources */,
+				E8E301DF66FBBAD6C3AB0909C5C4280A /* RuuviData4.swift in Sources */,
+				26E570F95D0A77F2EE7BFDB58CEECDC1 /* RuuviData5.swift in Sources */,
+				09A043ACA32ABC82C92E989E0BDA17EE /* RuuviDecoderiOS.swift in Sources */,
+				B7AB531DA281F564CFF4678CC67A1B61 /* RuuviDevice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BD5CF3FD953EECF26BC65FB379148E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BTKit;
+			target = C1FA60EFD844162BD8EED2BC06887824 /* BTKit */;
+			targetProxy = 322CE53826D475A263C2ABA1F4CA7A16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		264C00F1713D19DF0ACEFF27BC7EC00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C15C8A21F1CF75BF32AD09347C485A3 /* BTKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTKit/BTKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTKit/BTKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BTKit/BTKit.modulemap";
+				PRODUCT_MODULE_NAME = BTKit;
+				PRODUCT_NAME = BTKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6D25BFD05E9C73ED87DC855F8BF1C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53C6AB6E05F57B87B9CA0D1505451F1 /* Pods-RuuviTag.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RuuviTag/Pods-RuuviTag-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RuuviTag/Pods-RuuviTag.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E3B7B0B31BD7BC74F0D04468891AED6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C15C8A21F1CF75BF32AD09347C485A3 /* BTKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTKit/BTKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTKit/BTKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BTKit/BTKit.modulemap";
+				PRODUCT_MODULE_NAME = BTKit;
+				PRODUCT_NAME = BTKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC5AD15715CC0E1FD9360B1458655A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF05DA850A87B81D05D54A557BA194F /* Pods-RuuviTag.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RuuviTag/Pods-RuuviTag-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RuuviTag/Pods-RuuviTag.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E2B33B02D2869C94AF8F98598F4CC4 /* Build configuration list for PBXNativeTarget "Pods-RuuviTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5AD15715CC0E1FD9360B1458655A2C /* Debug */,
+				A6D25BFD05E9C73ED87DC855F8BF1C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59395448A23E76E7122555AF3CAA2D6C /* Build configuration list for PBXNativeTarget "BTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264C00F1713D19DF0ACEFF27BC7EC00A /* Debug */,
+				E3B7B0B31BD7BC74F0D04468891AED6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

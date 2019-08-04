@@ -1,0 +1,6 @@
+framework module BTKit {
+  umbrella header "BTKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

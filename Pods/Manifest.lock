@@ -1,0 +1,25 @@
+PODS:
+  - BTKit (0.0.11):
+    - BTKit/Devices (= 0.0.11)
+    - BTKit/Ruuvi (= 0.0.11)
+    - BTKit/Scanner (= 0.0.11)
+  - BTKit/Devices (0.0.11)
+  - BTKit/Ruuvi (0.0.11):
+    - BTKit/Devices
+    - BTKit/Scanner
+  - BTKit/Scanner (0.0.11):
+    - BTKit/Devices
+
+DEPENDENCIES:
+  - BTKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BTKit
+
+SPEC CHECKSUMS:
+  BTKit: c93b28e23866a6353236ff0ebee65e4ceb30f9eb
+
+PODFILE CHECKSUM: 8b75f54f415e3f292de1decb3ea9c2bba2c20bb2
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,6 @@
+framework module Pods_RuuviTag {
+  umbrella header "Pods-RuuviTag-umbrella.h"
+
+  export *
+  module * { export * }
+}
