@@ -13,7 +13,7 @@
 		0EC0C61322F70A2F00F7B6EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC0C61222F70A2F00F7B6EF /* Assets.xcassets */; };
 		0EC0C61622F70A2F00F7B6EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC0C61422F70A2F00F7B6EF /* LaunchScreen.storyboard */; };
 		0EC0C61E22F712D700F7B6EF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0C61D22F712D700F7B6EF /* TableViewCell.swift */; };
-		F40CCFA56C111A097E770AC7 /* Pods_RuuviTag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619A48BC2E77E156DA0818D2 /* Pods_RuuviTag.framework */; };
+		3C9E1E04B37A994A43420E4C /* Pods_RuuviTag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977A14F51BC175D2A836B4EF /* Pods_RuuviTag.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		0EC0C61522F70A2F00F7B6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EC0C61722F70A2F00F7B6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EC0C61D22F712D700F7B6EF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		166DF153CC0748A2C023037B /* Pods-RuuviTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuuviTag.release.xcconfig"; path = "Target Support Files/Pods-RuuviTag/Pods-RuuviTag.release.xcconfig"; sourceTree = "<group>"; };
-		619A48BC2E77E156DA0818D2 /* Pods_RuuviTag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuuviTag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE15FEC738D49919613F4A0F /* Pods-RuuviTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuuviTag.debug.xcconfig"; path = "Target Support Files/Pods-RuuviTag/Pods-RuuviTag.debug.xcconfig"; sourceTree = "<group>"; };
+		977A14F51BC175D2A836B4EF /* Pods_RuuviTag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuuviTag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B1F8612E7AD29E857B6764 /* Pods-RuuviTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuuviTag.debug.xcconfig"; path = "Target Support Files/Pods-RuuviTag/Pods-RuuviTag.debug.xcconfig"; sourceTree = "<group>"; };
+		F295673CFDE322F7EDCA9A38 /* Pods-RuuviTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuuviTag.release.xcconfig"; path = "Target Support Files/Pods-RuuviTag/Pods-RuuviTag.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F40CCFA56C111A097E770AC7 /* Pods_RuuviTag.framework in Frameworks */,
+				3C9E1E04B37A994A43420E4C /* Pods_RuuviTag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 				0EC0C60A22F70A2E00F7B6EF /* RuuviTag */,
 				0EC0C60922F70A2E00F7B6EF /* Products */,
 				4FC3E647837C44F7CE3BE62B /* Pods */,
-				4123C06A8AF8688CD1E38CB6 /* Frameworks */,
+				9589CDB7471634A42D51E06A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,21 +74,21 @@
 			path = RuuviTag;
 			sourceTree = "<group>";
 		};
-		4123C06A8AF8688CD1E38CB6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				619A48BC2E77E156DA0818D2 /* Pods_RuuviTag.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		4FC3E647837C44F7CE3BE62B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CE15FEC738D49919613F4A0F /* Pods-RuuviTag.debug.xcconfig */,
-				166DF153CC0748A2C023037B /* Pods-RuuviTag.release.xcconfig */,
+				98B1F8612E7AD29E857B6764 /* Pods-RuuviTag.debug.xcconfig */,
+				F295673CFDE322F7EDCA9A38 /* Pods-RuuviTag.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9589CDB7471634A42D51E06A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				977A14F51BC175D2A836B4EF /* Pods_RuuviTag.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,11 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EC0C61A22F70A2F00F7B6EF /* Build configuration list for PBXNativeTarget "RuuviTag" */;
 			buildPhases = (
-				87FBF40839DBD0669CF6EB23 /* [CP] Check Pods Manifest.lock */,
+				6CE14805ACDBD598F42CC9D9 /* [CP] Check Pods Manifest.lock */,
 				0EC0C60422F70A2E00F7B6EF /* Sources */,
 				0EC0C60522F70A2E00F7B6EF /* Frameworks */,
 				0EC0C60622F70A2E00F7B6EF /* Resources */,
-				70735F93177CF18ED46D6895 /* [CP] Embed Pods Frameworks */,
+				D9314060F7EEEBB01B977E51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,24 +160,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		70735F93177CF18ED46D6895 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RuuviTag/Pods-RuuviTag-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RuuviTag/Pods-RuuviTag-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RuuviTag/Pods-RuuviTag-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		87FBF40839DBD0669CF6EB23 /* [CP] Check Pods Manifest.lock */ = {
+		6CE14805ACDBD598F42CC9D9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,6 +180,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9314060F7EEEBB01B977E51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RuuviTag/Pods-RuuviTag-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RuuviTag/Pods-RuuviTag-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RuuviTag/Pods-RuuviTag-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -352,7 +352,7 @@
 		};
 		0EC0C61B22F70A2F00F7B6EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE15FEC738D49919613F4A0F /* Pods-RuuviTag.debug.xcconfig */;
+			baseConfigurationReference = 98B1F8612E7AD29E857B6764 /* Pods-RuuviTag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -371,7 +371,7 @@
 		};
 		0EC0C61C22F70A2F00F7B6EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 166DF153CC0748A2C023037B /* Pods-RuuviTag.release.xcconfig */;
+			baseConfigurationReference = F295673CFDE322F7EDCA9A38 /* Pods-RuuviTag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

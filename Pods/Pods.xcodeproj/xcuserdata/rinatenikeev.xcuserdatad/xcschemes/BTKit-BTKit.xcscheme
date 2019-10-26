@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D5BC5948C477BFFE626C6FB0B01FE18"
-               BuildableName = "Pods_RuuviTag.framework"
-               BlueprintName = "Pods-RuuviTag"
+               BlueprintIdentifier = "BE5FBA5BDEF523A01C44F8540FC852E0"
+               BuildableName = "BTKit.bundle"
+               BlueprintName = "BTKit-BTKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
